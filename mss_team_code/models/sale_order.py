@@ -3,8 +3,8 @@ from odoo import models, fields, api
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
-    city_name_id = fields.Many2one('city.team', string="City Team")
-    code_id = fields.Char(string='Code ID')
+    city_name_id = fields.Many2one('city.team', string="Team Code")
+    code_id = fields.Char(string='Customer Code')
 
     
 
