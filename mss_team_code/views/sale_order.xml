@@ -10,6 +10,11 @@
                 <field name="city_name_id"/>
               </xpath>
 
+
+              <xpath expr="//sheet//group//group[2]//field[@name='city_name_id']" position="after">
+                <field name="code_id"/>
+              </xpath>
+
              
 
 
